@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        #h1-principal{
+            width: 300px;
+            height: 50px;
+            background-color: lightgray;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding:20px;
+            outline-width: 30px;
+            outline-style: solid;
+            outline-color: blue;
+            margin: 50px auto 50px auto;   
+        }
+        /* Podemos simplificar o codigo com shorthand:
+         border: 10px solid red;
+         outline: 30px solid blue;
+         */
+
+         .conteudo-principal{
+            margin: auto;
+            background-color: white;
+            border-radius: 5px;
+            margin: auto;
+            width: 600px;
+            height: auto;
+            padding: 40px 20px;
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.555);
+         }
+
+         .titulo-conteudo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color:rgba(165, 42, 42, 0.795);
+            font-weight: normal;
+            text-align: center;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.527);
+         }
+
+         .texto-conteudo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color:rgb(82, 21, 21);
+         }
+    </style>
+
+</head>
+<body>
+    <h1 id="h1-principal">Exemplo de caixas</h1>
+    <p>O título acima é um box level</p>
+    <p>Já nesse paragrafo iremos colocar <a href="#">esse link falso</a> para mostrar que a tag &lt;a&gt; é um INLINE LEVEL.</p>
+
+    <article class="conteudo-principal">
+        <h1 class="titulo-conteudo">Meu estudo sobre HTML e CSS</h1>
+        <p class="texto-conteudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, iusto rem, sed assumenda earum reprehenderit veniam delectus totam non blanditiis aliquid. Ratione quam dolor vel maxime aliquam sequi praesentium velit.</p>
+    </article>
+</body>
+</html>

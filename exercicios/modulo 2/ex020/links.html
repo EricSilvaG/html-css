@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*Seletores personalizados
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-elementos
+            > = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+        
+        a{
+            color: rgb(196, 153, 153);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(193, 193, 196);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+         
+        a::before{
+        content:  '\002B9E  ';
+        color: black;
+        
+        }
+        a::after {
+        content: ' \002B9C';
+        color: black;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://linkedin.com" target="_blank" rel="external">Linkedin Eric</a></li>
+        <li><a href="https://facebook.com/whiteliimo" target="_blank" rel="external">Facebook Eric</a></li>
+        <li><a href="https://instagram.com/_eric.son"  target="_blank" rel="external">Instagram Eric</a></li>
+        <li><a href="https://youtube.com">Youtubiu</a></li>
+        <li><a href="#" target="_blank">hihihihih</a></li>
+    </ul>
+</body>
+</html>
