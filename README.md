@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://ericsilvag.github.io/html-css/desafios/Desafio%20010/android.html">Executrar o desafio 10</a>
+<a href="https://ericsilvag.github.io/html-css/desafios/Desafio%20010/android.html">Executar o desafio 10</a>
